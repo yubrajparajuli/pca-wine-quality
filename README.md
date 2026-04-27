@@ -6,31 +6,10 @@ A complete implementation of Principal Component Analysis (PCA) built from scrat
 
 ## Project Structure
 
-pca-wine-quality/
-├── data/
-│ └── WineQT.csv
-├── notebooks/
-│ └── pca_wine_quality.ipynb
-├── outputs/
-│ ├── 01_feature_distributions.png
-│ ├── 02_correlation_heatmap.png
-│ ├── 03_quality_distribution.png
-│ ├── 04_boxplot_features_vs_target.png
-│ ├── 05_scree_plot.png
-│ ├── 06_pca_2d_scatter.png
-│ ├── 07_biplot.png
-│ └── 08_final_comparison.png
-├── src/
-│ ├── data_loader.py
-│ ├── eda.py
-│ ├── preprocessing.py
-│ ├── pca_scratch.py
-│ ├── pca_sklearn.py
-│ ├── visualization.py
-│ └── model.py
-├── main.py
-├── requirements.txt
-└── README.md
+The project is organized into modular source files inside `src/`, 
+a Jupyter notebook for step by step walkthrough in `notebooks/`, 
+all generated plots in `outputs/`, and `main.py` to run the 
+complete pipeline end to end.
 
 ---
 
